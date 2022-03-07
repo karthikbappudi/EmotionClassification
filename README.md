@@ -9,7 +9,7 @@
 
 1.   Minority classes can be oversampled by adding new data or by augmenting using paraphrase generative models.
 
-2.   Different Encoder type tranformers like RoBerTa, Bert can be trained and benchmarked.
+2.   Different encoder type tranformers like RoBerta, Bert can be trained and benchmarked.
 
 3. Hypermaters can be tuned using optuna for further optimization.
 4. Error handlers could be added to the flask api. 
