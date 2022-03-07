@@ -30,7 +30,7 @@ onnx_quat_pipe = onnx_model.OnnxPipeline(onnx_quantized_model, tokenizer)
 @app.route("/encode", methods=["POST"])
 def predict():
     """
-    This function takes text as input and returns predictions from the model and assosiated softmax score to it.
+    This function takes text as input and returns predictions from the model and associated softmax score to it.
     """
     queries = request.json["text"]
 
